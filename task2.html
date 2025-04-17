@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="stylees.css">
+</head>
+<body>
+    <header>
+        <h1>Budget Planner</h1>
+        <p>Manage your finances effectively.</p>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Input Your Income and Expenses</h2>
+            <form id="budget-form">
+                <label for="income">Income:</label>
+                <input type="number" id="income" name="income" required>
+                
+                <label for="expense">Expense:</label>
+                <input type="number" id="expense" name="expense" required>
+                
+                <button type="submit">Add</button>
+            </form>
+        </section>
+        <section id="output-section">
+            <h2>Financial Insights</h2>
+            <div id="summary"></div>
+            <canvas id="budget-chart"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Budget Planner.</p>
+    </footer>
+    <script src="sscript.js"></script>
+</body>
+</html>
