@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Topic Suggestion Tool</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Topic Suggestion Tool</h1>
+        <form id="topicForm">
+            <input type="text" id="keywords" placeholder="Enter keywords" required>
+            <select id="category">
+                <option value="">Select Category</option>
+                <option value="technology">Technology</option>
+                <option value="health">Health</option>
+                <option value="lifestyle">Lifestyle</option>
+                <option value="finance">Finance</option>
+            </select>
+            <button type="submit">Get Suggestions</button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </div>
+    <script src="js1.js"></script>
+</body>
+</html>
